@@ -58,10 +58,6 @@ The project was developed with Blender 3.3.x. Newer Blender versions may update 
 
 Some textures and audio used during production came from external sources. They are not redistributed in this repository because their reuse terms have not been independently verified. See [`docs/ASSET_NOTES.md`](docs/ASSET_NOTES.md) for details.
 
-## Português
-
-Projeto final de modelação e animação 3D desenvolvido em Blender. Inclui o ficheiro-fonte, os vídeos finais, a apresentação e uma seleção de imagens do processo de criação: cenário, materiais, rigging, animação, câmara, efeitos ambientais e som.
-
 ## Author
 
 **Quévin Leonardo Aguiar Tavares**
