@@ -1,65 +1,29 @@
-# Blender 3D Animation Project
+# Blender 3D Animation
 
-A complete 3D animation project created in Blender, covering environment modelling, materials, character rigging, animation, camera work, atmospheric effects and sound design.
+A short 3D animation following a character through a stylised natural environment. Created in Blender, the project covers modelling, materials, character rigging, animation, cameras, atmospheric effects and sound.
 
-![Blender scene preview](docs/process/01-camera-composition.png)
+## Watch it
 
-## Project overview
+[![Scene composition in Blender](docs/process/01-camera-composition.png)](https://www.youtube.com/watch?v=93E9mItYj8k)
 
-The project follows a character moving through a stylised natural environment. The scene combines custom and adapted 3D elements, trees, rocks, grass, sky effects, animation, camera movement and sound.
+[Watch the final animation on YouTube](https://www.youtube.com/watch?v=93E9mItYj8k) · [Download the final MP4](renders/final-animation.mp4)
 
-The repository documents both the final result and the production process:
+The image shows the scene in Blender. The final video combines the [first](renders/first-sequence.mp4) and [second](renders/second-sequence.mp4) sequences.
 
-- environment and object modelling;
-- materials, textures and UV work;
-- character rigging and weight adjustments;
-- running and object animations;
-- camera composition;
-- wind, turbulence and sky effects;
-- sound placement and final presentation.
+## Open and explore
 
-## Final result
+1. Clone or download this repository.
+2. Open [src/blender-animation.blend](src/blender-animation.blend) in Blender. The project was developed with **Blender 3.3.x**.
+3. Use the timeline's Play control to inspect the animation and switch to the active camera view to check the composition.
+4. Explore the scene collections, character rig, materials and camera; compare them with the final MP4.
 
-- [Watch on YouTube](https://www.youtube.com/watch?v=93E9mItYj8k)
-- [`renders/final-animation.mp4`](renders/final-animation.mp4) — combined final version
-- [`renders/first-sequence.mp4`](renders/first-sequence.mp4) — first sequence
-- [`renders/second-sequence.mp4`](renders/second-sequence.mp4) — second sequence
+Newer Blender versions may update the file when saving, so keep a copy of the original.
 
-## Repository structure
+## Production notes
 
-```text
-blender-3d-animation/
-├── src/
-│   └── blender-animation.blend
-├── renders/
-│   ├── final-animation.mp4
-│   ├── first-sequence.mp4
-│   └── second-sequence.mp4
-├── docs/
-│   ├── presentation.pdf
-│   ├── presentation.pptx
-│   ├── ASSET_NOTES.md
-│   └── process/
-│       └── selected development screenshots
-├── .gitignore
-└── README.md
-```
+- [Process screenshots](docs/process/) show modelling, animation, textures, rig generation and sound work.
+- The presentation is available as [PDF](docs/presentation.pdf) and [PowerPoint](docs/presentation.pptx).
+- Some third-party textures and audio are intentionally excluded. A fresh render may differ from the supplied video until missing assets are replaced or relinked. See [asset notes](docs/ASSET_NOTES.md).
+- Shared as a portfolio project. No licence for reuse or redistribution has been granted.
 
-## Opening the project
-
-1. Clone the repository.
-2. Open [`src/blender-animation.blend`](src/blender-animation.blend) in Blender.
-3. Review the timeline, camera, rig, materials and scene collections.
-4. Use the final renders as a reference for the intended result.
-
-The project was developed with Blender 3.3.x. Newer Blender versions may update some data when the file is saved.
-
-## Notes about external assets
-
-Some textures and audio used during production came from external sources. They are not redistributed in this repository because their reuse terms have not been independently verified. See [`docs/ASSET_NOTES.md`](docs/ASSET_NOTES.md) for details.
-
-## Author
-
-**Quévin Leonardo Aguiar Tavares**
-
-This repository is shared as a portfolio project. No licence for reuse or redistribution has been granted.
+Created by **Quévin Leonardo Aguiar Tavares**.
